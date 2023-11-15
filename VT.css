@@ -1,0 +1,123 @@
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: lightblue;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+
+.sidenav a {
+  padding: 8px 8px 8px 18px;
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  display: block;
+}
+
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+
+.main {
+  margin-left: 160px;
+  padding: 0px 10px;
+}
+
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+nav{
+  padding: 40px;
+  color: white;
+  background-color: black;
+  width: 50%;
+}
+
+section{
+  padding: 40px;
+  color: white;
+  background-color: black;
+  width: 50%;
+}
+
+article{
+  padding: 40px;
+  color: white;
+  background-color: black;
+  width: 50%;
+}
+
+img.small{
+  width: 100px;
+  height:100px;
+}
+
+#watercolor{
+  width: 200px;
+  height:150px;
+  width: 200px;
+  width: 20%;
+  position: absolute;
+  left: 1000px;
+  top: 140px;
+}
+
+#pastel{
+  width: 200px;
+  height:200px;
+  position: absolute;
+  left: 1000px;
+  top: 400px;
+}
+
+#comic{
+  width: 200px;
+  height:200px;
+  width: 20%;
+  position: absolute;
+  left: 1000px;
+  top: 700px;
+}
+
+body{
+  background-color: #CCE7D4;
+}
+
+table{
+  width: 800px;
+  height: 300px;
+  position: absolute;
+  top: 1040px;
+}
+
+#design{
+  position: absolute;
+  left: 700px;
+  font-family: Autography;
+  font-size: 50px;
+  top: 900px;
+}
+
+#services{
+  position: absolute;
+  left: 700px;
+  align:center;
+  top: 985px;
+  font-family: BlackChancery;
+}
+
+.small{
+  position: absolute;
+  left: 20px;
+}
